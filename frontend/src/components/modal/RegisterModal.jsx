@@ -5,15 +5,7 @@ import ThemeContext from '../../context/ThemeProvider';
 import TodoContext from '../../context/TodoProvider';
 import AuthContext from '../../context/AuthProvider';
 
-import {
-  Button,
-  Modal,
-  ToggleButton,
-  ToggleButtonGroup,
-  FloatingLabel,
-  Form,
-  InputGroup,
-} from 'react-bootstrap';
+import { Button, Modal, Form, InputGroup } from 'react-bootstrap';
 
 ///////////////////////////////////////////////////
 // Component:

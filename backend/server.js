@@ -1,9 +1,9 @@
 // Imports:
-import dotenv from "dotenv";
-import connectDB from "./utils/connectDB.js";
+import dotenv from 'dotenv';
+import connectDB from './utils/connectDB.js';
 
 dotenv.config();
-import app from "./app.js";
+import app from './app.js';
 
 // App listen:
 app.listen(process.env.PORT, process.env.IP, () => {
@@ -13,5 +13,5 @@ app.listen(process.env.PORT, process.env.IP, () => {
 });
 
 connectDB()
-  .then(() => console.log("DB connection was successful!"))
-  .catch((err) => console.log("📵", err));
+  .then(() => console.log('DB connection was successful!'))
+  .catch((err) => console.log('📵', err));

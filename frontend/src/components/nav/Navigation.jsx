@@ -1,5 +1,5 @@
 // Imports:
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useState } from 'react';
 
 import ThemeContext from '../../context/ThemeProvider';
 
@@ -8,13 +8,10 @@ import {
   Form,
   Nav,
   Navbar,
-  FloatingLabel,
   ToggleButton,
   ToggleButtonGroup,
   InputGroup,
   Button,
-  Col,
-  Row,
   Offcanvas,
   NavDropdown,
   Image,

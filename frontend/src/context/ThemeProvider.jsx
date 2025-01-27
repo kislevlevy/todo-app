@@ -1,5 +1,5 @@
 // Imports:
-import { createContext, useState } from "react";
+import { createContext, useState } from 'react';
 
 // Context initiation:
 const ThemeContext = createContext();
@@ -8,16 +8,14 @@ const ThemeContext = createContext();
 // Provider
 export function ThemeProvider({ children }) {
   // State veriables:
-  const [themeValue, setThemeValue] = useState("light");
+  const [themeValue, setThemeValue] = useState('light');
 
   // Set provider veriables:
   const globalVariables = { themeValue, setThemeValue };
 
   // Return Provider:
   return (
-    <ThemeContext.Provider value={globalVariables}>
-      {children}
-    </ThemeContext.Provider>
+    <ThemeContext.Provider value={globalVariables}>{children}</ThemeContext.Provider>
   );
 }
 export default ThemeContext;

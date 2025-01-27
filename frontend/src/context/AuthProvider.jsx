@@ -1,5 +1,5 @@
 // Imports:
-import { createContext, useState } from 'react';
+import { createContext } from 'react';
 import axios from 'axios';
 import { BACK_END } from '../utils/config';
 
