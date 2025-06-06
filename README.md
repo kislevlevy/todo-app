@@ -81,7 +81,7 @@ To run the front-end and back-end separately in development mode:
    npm run dev
    ```
 
-> You can also preview the app by visiting the following link: [Todo App](https://todo-app.kislev.me/)
+> You can also preview the app by visiting the following link: [Todo App](https://kislevlevy.github.io/todo-app/)
 
 ## How to Use
 
